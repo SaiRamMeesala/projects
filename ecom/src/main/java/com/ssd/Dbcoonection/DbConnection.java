@@ -15,7 +15,7 @@ public class DbConnection {
 		conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/e-cart","root","Sai@1919");	
 			
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
         

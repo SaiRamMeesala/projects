@@ -4,13 +4,11 @@ import java.io.IOException;
 import java.util.List;
 
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.ssd.Dao.UserDao;
 import com.ssd.Dto.CartDto;
 import com.ssd.Dto.UserDto;
 import com.ssd.service.UserService;
@@ -19,7 +17,7 @@ import com.ssd.service.cartServices;
 /**
  * Servlet implementation class UserServelt
  */
-@WebServlet("/User")
+@jakarta.servlet.annotation.WebServlet("/User")
 public class UserLoginServelt extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 

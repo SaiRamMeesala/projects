@@ -5,7 +5,6 @@ import java.sql.Date;
 import java.time.LocalDate;
 
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -17,7 +16,7 @@ import com.ssd.service.OrderService;
 /**
  * Servlet implementation class ProductMainBUYservlet
  */
-@WebServlet("/ProductMainBUYservlet")
+@jakarta.servlet.annotation.WebServlet("/ProductMainBUYservlet")
 public class ProductMainBUYservlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
